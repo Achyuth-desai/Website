@@ -48,7 +48,7 @@ ul.nav-bar{
 	list-style-type: none;
 	margin: 0px!important;
 	padding-top: 20px;
-	padding-bottom: 1000px;
+	/*padding-bottom: 1000px;*/
 	overflow: hidden;
 	text-decoration: none;
 	z-index: 1;
@@ -87,9 +87,39 @@ li .nav:before{
   	transition: all 0.3s ease-in-out;
 }
 li .nav:hover{
-	color: black!important;
+	color : black!important;
 }
 li .nav:hover:before{
 	visibility: visible;
 	transform: scaleX(1);
+}
+
+.name p#name{
+	display: inline-block;
+	font-size: 54px!important;
+	font-family: sans-serif;
+	position: relative;
+	top: 150px;
+	left: 700px;
+	z-index: 1;
+	font-weight: 600;
+}
+
+.name p#descr{
+	display: inline-block;
+	font-size: 20px;
+	font-family: sans-serif;
+	position: relative;
+	left: 320px;
+	top: 200px;
+	z-index: 1;
+}
+
+.mypic{
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	right: 300px;
+	z-index: 1;
+	border-radius: 50%;
 }
